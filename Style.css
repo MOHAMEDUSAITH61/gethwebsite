@@ -1,7 +1,8 @@
+
 header {
-    background-color: #f2f2f2;
+    background-color: #271b1b;
     padding: 20px;
-    margin-left: 0px;
+    margin: 0px;
 }
 
 .outerbox{
@@ -17,7 +18,8 @@ header {
     position:fixed;
     top: 20px;
     right: 20px;
-    z-index: 2;
+    z-index:2;
+   
 }
 
 .sidebar{
@@ -69,8 +71,87 @@ img{
 .sidebar ul li a:hover {
     background-color: #82c0f3;
 }
-.video{
-    flex-wrap: nowrap;
+.video1{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
   align-items: center;
+  width: 100%;
+}
+.parapic{
+    width: 100%;    
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    padding: 7%;
+
+}
+.para{
+    width: 60%;
+    height: 250px;
+    
+}
+.pic{
+    width: 30%;
+    height: 250px;
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    transition: 0.10s;
+    
+}
+.picturebox{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    
+}
+.picture1{
+    width: 250px;
+    height: 350px;
+}
+
+.picture2{
+    width: 250px;
+    height: 350px;
+}
+.picture3{
+    width: 250px;
+    height: 350px;
+}
+.gallary{
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.telegram-link {
+    display: inline-flex;
+    align-items: center;
+    background-color: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.telegram-link:hover {
+    background-color: #007bb5;
+}
+
+.telegram-icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
 }
 
