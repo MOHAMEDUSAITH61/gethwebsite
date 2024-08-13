@@ -107,8 +107,10 @@ img{
     height: 100%;
     flex-wrap: wrap;
     display: flex;
-    float: left;
+    float:left;
     justify-content: space-around;
+    padding:7%;
+    align-items: center;
     
 }
 .picture1{
@@ -129,12 +131,13 @@ img{
     height: 25%;
 }
 .gallary{
+    margin: -10%;
     padding: 10%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+    align-items: center;   
 
 }
 .telegram-link {
