@@ -1,4 +1,6 @@
 
+
+
 header {
     background-color: #271b1b;
     padding: 20px;
@@ -10,6 +12,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     display: flex;    
+    
 }
 
 .menu-icon {
@@ -70,6 +73,10 @@ img{
 
 .sidebar ul li a:hover {
     background-color: #82c0f3;
+}
+
+#three{
+    margin-top: -10%;
 }
 .video1{
     flex-wrap: wrap;
@@ -138,6 +145,7 @@ img{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;   
+    position: relative;
 
 }
 .telegram-link {
@@ -225,4 +233,32 @@ img{
     border-radius: 50%; 
 }
 
+.aboutdiv{
+    margin-top: -15%;
+}
 
+
+.Acon{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:blue;
+}
+
+    .footer {
+        width: 100%; 
+        text-align: center; 
+        padding: 10px 0; 
+        background-color: #f1f1f1; 
+        color: #333; 
+        position: fixed; 
+        bottom: 0;
+        left: 0; 
+        z-index: 1000; 
+    }
