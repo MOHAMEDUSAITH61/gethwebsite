@@ -178,7 +178,17 @@ img{
     font-size: 18px;
     font-weight: bold;
 }
-
+.youtube-link{
+    display: inline-flex;
+    align-items: center;
+    background-color: #d31c1c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 .telegram-link:hover {
@@ -193,7 +203,7 @@ img{
 
 
 
-.telegram-icon,.insta-icon,.linkedin-icon{
+.telegram-icon,.insta-icon,.linkedin-icon,.youtube-icon{
     margin-right: 10px;
     width: 24px;
     height: 24px;
