@@ -1,6 +1,3 @@
-
-
-
 header {
     background-color: #271b1b;
     padding: 20px;
@@ -148,7 +145,29 @@ img{
     position: relative;
 
 }
-.telegram-link {
+.telegram-link{
+    display: inline-flex;
+    align-items: center;
+    background-color: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.insta-link{
+    display: inline-flex;
+    align-items: center;
+    background-color: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.linkedin-link{
     display: inline-flex;
     align-items: center;
     background-color: #0088cc;
@@ -160,11 +179,21 @@ img{
     font-weight: bold;
 }
 
+
+
 .telegram-link:hover {
-    background-color: #007bb5;
+    background-color: #07a5ee;
+}
+.insta-link{
+    background-color: rgb(151, 36, 103);
+}
+.linkedin-link{
+    background-color: #1d8dce;
 }
 
-.telegram-icon {
+
+
+.telegram-icon,.insta-icon,.linkedin-icon{
     margin-right: 10px;
     width: 24px;
     height: 24px;
@@ -195,24 +224,24 @@ img{
     
     /* Popup Modal Styles */
     .modal {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 1000; /* Sit on top */
+        display: none; 
+        position: fixed; 
+        z-index: 1000; 
         left: 0;
         top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        width: 100%; 
+        height: 100%;
+        overflow: auto; 
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.4); 
     }
     
     .modal-content {
         background-color: #fefefe;
-        margin: 15% auto; /* 15% from the top and centered */
+        margin: 15% auto;
         padding: 20px;
         border: 1px solid #888;
-        width: 80%; /* Could be more or less, depending on screen size */
+        width: 80%; 
     }
     
     .close {
@@ -232,25 +261,37 @@ img{
 .gallary #gpic1{
     border-radius: 50%; 
 }
-
 .aboutdiv{
+    margin-top: -10%;
+    margin-bottom: 15px;
+}
+
+.aboutdiv h2{
+    
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #007BFF;
+}
+.aboutdiv p{
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+
+
+}
+
+#services{
     margin-top: -15%;
+    font-family: Arial, sans-serif;
 }
 
+#services h2, #stwo h3,#sone h3 ,#sthree h3 ,#sfour h3,#sfive h3,#ssix h3{
 
-.Acon{
-  font-family: "Edu VIC WA NT Beginner", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    
+     font-size: 24px;
+     margin-bottom: 15px;
+     color: #007BFF;
+    
 }
-.matemasie-regular {
-    font-family: "Matemasie", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    color:blue;
-}
-
     .footer {
         width: 100%; 
         text-align: center; 
@@ -261,4 +302,45 @@ img{
         bottom: 0;
         left: 0; 
         z-index: 1000; 
+    }
+
+    #contact {
+        margin-top: -15%;
+        padding: 40px;
+        background-color: #fcfbfb;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+     .contact-info h3,
+    .contact-form h3,
+    .map h3,
+    .social-media h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #007BFF;
+    }
+    
+    .contact-info p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+.map iframe {
+        border-radius: 5px;
+    }
+    
+    .social-media a {
+        margin-right: 15px;
+        color: #e3e8ee;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    .social-media a:hover {
+        text-decoration: underline;
+    }
+    
+    #formMessage {
+        margin-top: 15px;
+        font-size: 16px;
+        color: green;
     }
